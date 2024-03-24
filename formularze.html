@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css" type="text/css"/>
+    <link rel="stylesheet" href="CSS/formularze.css" type="text/css"/>
+ <title> tworzenie formularzy </title>
+</head>
+<body>
+ <div id="kontener">
+    <div id="baner"><h2>Szybki kurs HTML</h2></div>
+     <div id="menu">
+         <ul id="nav">
+             <li><a href="index.html">Podstawy</a></li>
+             <li><a href="tabele.html">Tabele</a></li>
+             <li><a href="">Formularze</a>
+                 <ul>
+                     <li><a href="formularze.html" >Pola formularza</a></li>
+                     <li><a href="obliczenia.html" >Obliczenia w formularzu</a></li>
+                 </ul>
+             </li>
+             <li><a href="galeria.html" title="">Galeria</a></li>
+         </ul>
+     </div>
+     <div id="tresc"><p><h3>Przykładowe znaczniki formularza HTML:</h3>
+         <ul><li>&lt;form&gt; - znacznik podstawowy zawierający pole formularza</li>
+         <li>&lt;input&gt;- znacznik umożliwiający wstawianie różnych pól w zależności
+         od wartości atrybutu "type"</li>
+         <li>&lt;select&gt;- pole formularza tupu lista rozwijana</li>
+         <li>&lt;textarea&gt;- pole formularza tupu obszar tekstowy</li>
+         <li>&lt;button&gt;- pole formularza tupu przycisk</li></ul>
+         <h3>Przykładowy formularz HTML:</h3>
+        <label>
+            <div id="formularz">
+         <form action="mailto:krzysztofksiezki@gmail.com" method="post">
+             Nazwisko: <input type="text" name="login" /> <br />
+             Wiek: <input type="number" name="wiek" /> <br>
+             Państwo: <select id="panstwo">
+                 <option>Polska</option>
+                 <option>USA</option>
+                 <option>Niemcy</option>
+             </select><br>
+             Adres e-mail: <input type="email" name="email"/></br><br>
+             <b>Zamawiam tutorial z języka:</b><br>
+             <input type="checkbox" name="PHP" value="PHP" /> PHP
+             <input type="checkbox" name="Java" value="J" /> Java
+             <input type="checkbox" name="C" value="C" /> C/C++ <br />
+             <b>Sposób zapłaty:</b> <br />
+             <input type="radio" name="platnosc" value="eu" /> eurocard
+             <input type="radio" name="platnosc" value="v" /> visa
+             <input type="radio" name="platnosc" value="pb" /> przelew bankowy <br><br>
+             <input type="submit" value="Wyślij" />
+             <input type="reset" value="Wyczyść" /><br>
+
+         </form>
+            </div>
+        </label>
+     </div>
+    <div id="stopka"> &copy;BP</div>
+ </div>
+</body>
+</html>

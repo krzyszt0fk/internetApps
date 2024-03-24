@@ -1,0 +1,54 @@
+
+input[type=submit] {
+    width: 100px;
+    background-color: #309c26;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+
+input[type=reset] {
+    width: 100px;
+    background-color: red;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+input[type="submit"]:hover, button:hover {
+    background-color: #3bae2e;
+}
+input[type="reset"]:hover, button:hover {
+    background-color: lightcoral;
+}
+
+#formularz{
+    text-align: center;
+    border:none;
+    margin: 15px;
+    border-radius: 10px;
+    background: #b9f5ff;
+    width: 450px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+
+}
+input [type=checkbox], [type=text],[type=number],[type=email],#panstwo{
+    text-align: center;
+    width: 200px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 5px;
+
+}
+
