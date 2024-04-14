@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMULARZ DOTACJI</title>
+</head>
+<body>
+<div id="kontener">
+  <div id="baner"><h2>FORMULARZ DOTACJI</h2></div>
+  <div id="tresc">
+    <form action="mailto:krzysztofksiezki@gmail.com" method="post">
+      <p>
+        <fieldset name="beneficjent" >Beneficjent:
+        <input type="text" name="beneficjent" required list="organizacje" /> <br>
+        Wartość dotacji:
+        <input type="number" name="wartoscDotacji" min="20" step="5" required/> <br>
+    </fieldset>
+      </p>
+      <p>
+        <fieldset name=" DaneKarty">
+        Dane karty płatniczej: <br>
+        Karta:
+        <input type="radio" name="platnosc" value="MC" required/> Master Card
+        <input type="radio" name="platnosc" value="v" required/> Visa
+        <input type="radio" name="platnosc" value="pb" required/> przelew bankowy <br>
+        Numer:
+        <input type="text" name="numerKarty"  required placeholder="numer karty"
+        pattern="[0-9]{13,16}" title="Numer to 13 lub 16 cyfr"/> <br>
+        Data ważności:
+        <input type="date" name="dataWaznosci"  required title="Podaj datę ważności karty"/> <br>
+        KOD CVV:
+        <input type="number" name="KodCVV" pattern="[0-9]{3,4}" required title="Podaj kod CVV złożony z
+3 lub 4 cyfr podanych na odwrocie karty" /> <br>
+    </fieldset>
+      </p>
+
+      <input type="checkbox" name="akceptacja" required>*Akceptuję regulamin <br >
+      <input type="submit" value="Rejestruj">
+      <input type="reset" value="Wyczyść">
+
+
+    </form>
+    <datalist id="organizacje">
+      <option value="Fundacja Rozwojowa">
+      <option value="Stowarzyszenie Umarłych Poetów">
+      <option value="Klub Seniora">
+
+    </datalist>
+  </div>
+
+</div>
+</body>
+</html>

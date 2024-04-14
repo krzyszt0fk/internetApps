@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kreator pizzy</title>
+</head>
+<body>
+    <div id="kontener">
+        <div id="baner"><h2>Kreator pizzy</h2></div>
+        <div id="tresc">
+            <form action="mailto:krzysztofksiezki@gmail.com" method="post">
+                <fieldset name ="rozmiar">
+                <legend><b>Rozmiar:</b></legend><br>
+                <input type="radio" name="rozmiar" value="m" /> mała
+                <input type="radio" name="rozmiar" value="s" /> średnia
+                <input type="radio" name="rozmiar" value="d" /> duża <br>
+                </fieldset>
+                <fieldset name="dodatki">
+                    <legend><b>Dodatki: </b></legend><br>
+                    <input type="checkbox" name="Szynka" value="sz" /> Szynka<br>
+                    <input type="checkbox" name="Salami" value="sa" /> Salami<br>
+                    <input type="checkbox" name="Boczek" value="bo" /> Boczek<br>
+                    <input type="checkbox" name="Papryka" value="pa" /> Papryka<br>
+                    <input type="checkbox" name="Pomidor" value="po" /> Pomidor<br>
+                    <input type="checkbox" name="Ser" value="se" /> Ser <br>
+                </fieldset>
+                <fieldset name = "sosy">
+                    <legend><b>Sosy:</b></legend><br>
+                    Wybierz sos:
+                    <select size="3" name="sosy" multiple>
+                        <option value="pom" >Pomidorowy</option>
+                        <option value="czo" >Czosnkowy</option>
+                        <option value="kl">Ketchup łagodny</option>
+                        <option value="kp">Ketchup pikantny</option>
+                    </select><br><br>
+                    Inne uwagi:
+                    <textarea cols="70" rows="5" name="uwagi">
+                    </textarea>
+                </fieldset> <br>
+                <input type="reset" value="Wyczyść dane" />
+                <input type="submit" value="Wyślij zamówienie" />
+
+
+            </form>
+            </div>
+
+    </div>
+</body>
+</html>
