@@ -1,0 +1,144 @@
+
+@media screen and (min-width: 481px) and (max-width: 720px) {
+    body { font-size: 13px; }
+    h1 { font-size: 23px; }
+    h2 { font-size: 18px; }
+    #pasek{
+        float: left;
+        width: 100%;
+    }
+    #tresc{
+        float: left;
+        width: 100%;
+    }
+}
+h1, h2, h3 {
+    margin:0;
+    padding:0;
+}
+body {
+    background: #aaaaaa;
+    color: rgba(0,0,0,0.85);
+
+}
+h1,h2, footer {
+    background: #45525a;
+    color: #f0f0f0;
+    text-align:center;
+}
+#tresc {
+    background: lightgrey;
+    float:left;
+    width:75%;
+    padding:1%;
+}
+#zdjecia{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#zdjecia a{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+
+}
+img{
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+#pasek {
+    float: right;
+    width: 20%;
+    padding: 1%;
+}
+
+*.box { background:#45525a;
+    color:#f0f0f0;
+    padding:5px;
+    margin:5px;
+    font-size:90%;}
+
+
+*.box a{color:#ffffb0}
+
+#nav {
+    float:left;
+    width:100%;
+    margin:0;
+    padding:0;
+    background: #d5d5d5;
+    border-bottom:2px solid black;
+
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    padding:5px 0 5px 0;
+    text-align: center;
+}
+
+
+#nav {
+    text-align: left;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+nav a {
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 4px 8px;
+    color: rgba(0,0,0,0.86);
+
+}
+ul#nav li {
+    border: 1px solid #d5d5d5;
+    list-style-type: none;
+    float: left;
+    background: rgba(0,0,0,0.26);
+    margin-left: 3px;
+    border-radius: 10px;
+}
+ul#nav li:hover {
+    border: 1px solid #d5d5d5;
+    list-style-type: none;
+    float: left;
+    background: azure;
+    margin-left: 3px;
+}
+ul#nav li a {
+    display : block;
+    padding : 4pt;
+    text-decoration : none;
+}
+ul#nav li li a {
+    width: 160px;
+}
+ul#nav li li:hover {
+    background: white;
+}
+ul#nav li ul {
+    overflow: hidden;
+    display: none;
+}
+ul#nav li:hover ul {
+    position: absolute;
+    background: #aaa;
+    padding: 0;
+    display: block;
+    width: 177px;
+}
+#wpisanieLiczb{
+    float:left;
+    width: 30%;
+}
+#wybranieDzialania{
+    float: right;
+    width: 30%;
+}
